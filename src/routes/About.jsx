@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
     <div className="about-section">
-      <img src={about} alt="About"  className="about-image" loading="lazy" />
+      <img src={about} alt="About"  className="about-image" decoding='async' loading="lazy" />
       <div className="about-content">
         <h1>About Trippy</h1>
         <p>Discover amazing destinations with us</p>
