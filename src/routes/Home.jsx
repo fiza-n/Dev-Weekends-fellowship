@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Destination from '../components/Destination'
+import RecentTrips from '../components/RecentTrips'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
     
     <Hero />
     <Destination />
+    <RecentTrips />
     </>
   )
 }
