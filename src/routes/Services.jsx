@@ -5,6 +5,7 @@ import RecentTrips from '../components/RecentTrips'
 
 const Services = () => {
   return (
+   <>
     <div className="service-section">
       <img src={servicesection} alt="" className="service-image" />
       <div className="service-content">
@@ -12,9 +13,10 @@ const Services = () => {
        
       </div>
       
-        <RecentTrips />
       
     </div>
+    <RecentTrips />
+   </>
 
   )
 }

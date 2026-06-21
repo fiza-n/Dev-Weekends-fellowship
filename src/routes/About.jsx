@@ -1,6 +1,7 @@
 import React from 'react'
 import about from '../assets/aboutsection.jpg'
 import './About.css'
+import AboutUs from '../components/AboutUs'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    <AboutUs />
     </>
   )
 }
